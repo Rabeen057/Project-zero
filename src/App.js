@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App" id="App">
       <ThemeContext.Provider value={mode}>
+        <h1>Project zero </h1>
         <Login />
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
